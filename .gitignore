@@ -1,31 +1,42 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
+# common config
+*.java.hsp
+*.sonarj
+*.sw*
+.DS_Store
 .settings
 .springBeans
-.sts4-cache
+bin
+build.sh
+integration-repo
+ivy-cache
+jxl.log
+jmx.log
+derby.log
+spring-test/test-output/
+.gradle
+argfile*
+activemq-data/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+classes/
+/build
+buildSrc/build
+/spring-*/build
+/src/asciidoc/build
+/logs
+target/
+
+# Eclipse config
+.classpath
+.project
+spring-*/src/main/java/META-INF/MANIFEST.MF
+.factorypath
+
+# IDEA config
 *.iml
 *.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-
-### VS Code ###
-.vscode/
+*.iws
+.idea
+out
+test-output
+atlassian-ide-plugin.xml
+.gradletasknamecache
