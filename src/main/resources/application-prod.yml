@@ -1,0 +1,12 @@
+# 任务调度
+xxl:
+  job:
+    executor:
+      logpath: ./logs/xxl-job/jobhandler
+      appname: ecs-ods-45
+      ip:
+      port: 9999
+      logretentiondays: -1
+    admin:
+      addresses: http://211.144.5.80:30182/xxl-job-admin
+    accessToken:
