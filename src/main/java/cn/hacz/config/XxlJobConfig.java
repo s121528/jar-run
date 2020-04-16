@@ -20,7 +20,6 @@ import org.springframework.context.annotation.Profile;
 @Configuration
 @ComponentScan(basePackages = "cn.hacz.jobhandler")
 @Slf4j
-@Profile(value = {"prod"})
 public class XxlJobConfig {
     @Value("${xxl.job.admin.addresses}")
     private String adminAddresses;

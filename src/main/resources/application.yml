@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: dev
+    active: jar
   datasource:
     username: root
     password: passw0rd
